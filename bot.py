@@ -4,8 +4,8 @@ from my_class_2 import NASA
 import re
 import datetime
 
-API_key = 'YOUR_API_KEY_HERE'  # Замените на ваш API ключ'1rkXksQeXm8LvNhhZHSuDjraBRoMSOq91mv1s0P9'
-bot = telebot.TeleBot ('YOUR_BOT_TOKEN_HERE')  # Замените на ваш токен бота'6407381406:AAG56JGhcMlpN_0AYd7W9gMHPqlNMFftUnc')
+API_key = 'YOUR_API_KEY_HERE'  # Замените на ваш API ключ
+bot = telebot.TeleBot ('YOUR_BOT_TOKEN_HERE')  # Замените на ваш токен бота
 
 @bot.message_handler(commands=['help', 'start'])
 def handle_commands(message):
